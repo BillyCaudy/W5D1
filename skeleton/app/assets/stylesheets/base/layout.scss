@@ -1,0 +1,81 @@
+/* Define application-wide selectors here!*/
+@import "colors.scss";
+@import "fonts.scss";
+
+html {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
+}
+
+i, span {
+	vertical-align: middle;
+}
+
+nav, ul, li {
+	display: inline-block;
+}
+
+.right-nav {
+	// float: right;
+}
+
+li {
+	background-color: green;
+	height: 100%;
+	border-color: none;
+	color: $light-gray;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+	transition: none;
+	font-family: $sans-serif;
+	text-transform: none;
+	font-size: 16px;
+	text-align: center;
+}
+
+i, input, span {
+	padding: 0px;
+	height: 32px;
+	border: 0px;
+	background-color: inherit;
+	color: $light-gray;
+	font-weight: bold;
+	transition: none;
+	font-family: $sans-serif;
+	text-transform: none;
+	font-size: 24px;
+	text-align: center;
+}
+
+button:hover {
+	// background-color:
+	// border-color:
+}
+
+/*
+	Header Rules
+*/
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: $light-gray;
+}
+
+.hr-top, .hr-bottom {
+	width: 100%;
+	margin: 0;
+}
+
+.hr-top {
+	height: 2px;
+	margin-bottom: 1px;
+}
